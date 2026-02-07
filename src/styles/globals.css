@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+  --deep-obsidian: #0A0A0A;
+  --ghost-white: #F8F9FA;
+  --neon-cyan: #00E5FF;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--deep-obsidian);
+  color: var(--ghost-white);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
